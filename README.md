@@ -1,6 +1,6 @@
 <div align="center">
   <h1><a href="https://mwangilwa.com" target="_blank">Mwangilwa</a></h1>
-  My personal portfolio website to show my skills, experience, and articles I published
+  This is my digital nest.
 </div>
 
 ## Built with
@@ -35,7 +35,7 @@
 ## Running Locally
 
 ```sh
-git clone https://github.com/mwan9ilwa/mz
+git clone https://github.com/mwan9ilwa/home
 cd mz && yarn install
 yarn dev
 ```
