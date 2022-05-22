@@ -36,7 +36,7 @@
 
 ```sh
 git clone https://github.com/mwan9ilwa/home
-cd mz && yarn install
+cd home && yarn install
 yarn dev
 ```
 
