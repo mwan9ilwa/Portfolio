@@ -1,12 +1,18 @@
 import * as React from 'react'
 import {
-  FiPackage,
   FiHome,
-  FiEdit2,
-  FiUsers,
-  FiBarChart2,
 } from 'react-icons/fi'
-import { FaTools } from 'react-icons/fa'
+import {
+  FaReact,
+  FaNodeJs,
+  FaHtml5,
+  FaPython,
+  FaGoogle
+} from "react-icons/fa";
+import {
+  SiGooglecloud,
+} from "react-icons/si";
+
 import { VStack, Heading, Box, Link, LinkProps } from '@chakra-ui/react'
 import { TimelineItem } from './Timeline'
 import { PageSlideFade } from 'components/shared/animations/page-transitions'
@@ -62,96 +68,119 @@ const Achievements = () => {
       <VStack textAlign="start" align="start" mb={5}>
         <Box zIndex={5}>
           <Heading fontSize="2xl" fontWeight="600" my={5}>
-            2021
+            2022
           </Heading>
           <Box>
-            <TimelineItem icon={FaTools}>
-              Learnt{' '}
+            <TimelineItem icon={FaReact}>
+            Built my  {' '}
               <ExternalLink
                 color={linkColor}
-                url="https://www.typescriptlang.org"
-                text={'Typescript'}
+                url="https://github.com/mwan9ilwa/mwangi.com"
+                text={'portfolio '  }
                 target="_blank"
-              />{' '}
-              and{' '}
+              />
+            webapp with React.js, Next.js and Firebase.
+            </TimelineItem>
+            
+            <TimelineItem icon={FaNodeJs}>
+              Learnt {" "}
               <ExternalLink
                 color={linkColor}
-                url="https://nextjs.org"
-                text={'Next.js'}
+                url="https://nodejs.org"
+                text={"Node.js "}
                 target="_blank"
-              />
+              /> 
+              for serverside development.
             </TimelineItem>
-            <TimelineItem icon={FiUsers}>Became a dad ❤️</TimelineItem>
-            <TimelineItem icon={FiPackage}>
-              Published 3 posts on my portfolio website{' '}
-              <InternalLink color={linkColor} url="/blog" text={'Blog'} />
-            </TimelineItem>
-            <TimelineItem icon={FiPackage}>
-              Published or contributed to{' '}
-              <InternalLink
-                color={linkColor}
-                url="/open-source"
-                text={'20+ open-source repositories'}
-              />
-            </TimelineItem>
-            <TimelineItem icon={FiBarChart2}>
-              Collected 34k+ posts views and 1.5k+ total reactions on{' '}
+            <TimelineItem icon={FaReact} skipTrail>
+              Learnt ReactJS through {" "}
               <ExternalLink
                 color={linkColor}
-                url="https://dev.to/m_ahmad"
-                text={'Dev.to'}
+                url="https://www.taniarascia.com/getting-started-with-react/"
+                text={"Tania Rascia's "} 
                 target="_blank"
               />
-            </TimelineItem>
-            <TimelineItem icon={FiHome} skipTrail>
-              Rebuilt my portfolio website with React, ChakraUI and
-              Framer-motion,{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://github.com/MA-Ahmad/myPortfolio"
-                text={'source on Github'}
-                target="_blank"
-              />
-              .
+              Tutorial. I highly recommend her Overview and Walkthrough if you are new to learn React.
             </TimelineItem>
           </Box>
         </Box>
+
         <Box zIndex={5}>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2021
+          </Heading>
+          <Box>
+          <TimelineItem icon={FaHtml5}>
+              Built my portfolio website with HTML5 and Bootstrap,{" "}
+              <ExternalLink
+                color={linkColor}
+                url="https://github.com/mwan9ilwa/mwangilwa.com"
+                text={"source on Github"}
+                target="_blank"
+              />
+            </TimelineItem>
+            
+            <TimelineItem icon={FaGoogle}>
+              Became a {" "}
+              <ExternalLink
+                color={linkColor}
+                url="https://g.dev/mwan9ilwa"
+                text={"Google Developer"}
+                target="_blank"
+              />
+            </TimelineItem>
+              
+            <TimelineItem icon={SiGooglecloud}>
+              Became a Google Cloud Professional{" "}
+              <ExternalLink
+                color={linkColor}
+                url="https://mpelembe.net"
+                text={"Mpelembe Network"}
+                target="_blank"
+              />
+            </TimelineItem>
+            
+            <TimelineItem icon={SiGooglecloud} skipTrail>I was Introduced to Google Cloud Partner Advantage</TimelineItem>
+          </Box>
+        </Box>
+
+        <Box>
           <Heading fontSize="2xl" fontWeight="600" my={5}>
             2020
           </Heading>
           <Box>
-            <TimelineItem icon={FiEdit2}>Wrote 5 blog posts</TimelineItem>
-            <TimelineItem icon={FiPackage}>
-              Published or contributed to{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://github.com/MA-Ahmad?tab=repositories"
-                text={'32 open-source repositories'}
-                target="_blank"
-              />
+            <TimelineItem icon={FiHome}>
+              Computer Studies Tutor Internship
             </TimelineItem>
-            <TimelineItem icon={FiBarChart2}>
-              Collected 650+ post views and 15+ total reactions on{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://dev.to/m_ahmad"
-                text={'Dev.to'}
-                target="_blank"
-              />
-            </TimelineItem>
-            <TimelineItem icon={FiHome} skipTrail>
-              Built my portfolio website with React and ChakraUI,{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://github.com/MA-Ahmad/portfolio2"
-                text={'source on Github'}
-                target="_blank"
-              />
-              .
+            
+            <TimelineItem icon={FaPython} skipTrail>
+              Kept on Learn Python 3
             </TimelineItem>
           </Box>
         </Box>
+        
+        <Box>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2019
+          </Heading>
+          <Box>
+            <TimelineItem icon={FaPython} skipTrail>
+              Learnt Python 3
+            </TimelineItem>
+          </Box>
+        </Box>
+        
+        <Box>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2018
+          </Heading>
+          <Box>
+          <TimelineItem icon={FaHtml5} skipTrail>
+              Learnt HTML 5 and Web Development
+            </TimelineItem>
+          </Box>
+        </Box>
+
       </VStack>
     </PageSlideFade>
   )

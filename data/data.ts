@@ -1,90 +1,82 @@
 export const companies = [
   {
-    title: 'Phaedra Solutions',
-    alt: 'PS image',
-    role: 'Senior Software Engineer',
-    skills: ['ruby', 'rails', 'typescript', 'javascript', 'react', 'aws'],
-    period: '2019 - Present',
-    logo: '/assets/images/logos/phaedra.jpeg'
+    title: "ProLearn Technologies",
+    alt: "PS image",
+    role: "Web Developer",
+    skills: ["wordpress", "php", "javascript", "react", "google cloud"],
+    period: "2022 - Present",
+    logo: '/assets/images/logos/prolearn.png'
   },
   {
-    title: 'Brainx Technologies',
-    alt: 'BT image',
-    role: 'Software Engineer',
-    skills: ['ruby', 'rails', 'javascript', 'python'],
-    period: '2018 - 2019',
-    logo: '/assets/images/logos/brainxtech.png'
+    title: "Prudential Life",
+    alt: "BT image",
+    role: "Wealth Consultant",
+    skills: ["insurance", "business"],
+    period: "2021",
+    logo: '/assets/images/logos/prudential.jpeg'
   },
-  // {
-  //   title: "Codenya Studio",
-  //   alt: "CS image",
-  //   role: "Co-founder, CTO",
-  //   skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-  //   period: "2018 - Present",
-  //   logo: '/assets/images/logos/codenya.png'
-  // },
   {
-    title: 'Brainplow',
-    alt: 'Brainplow image',
-    role: 'Software Engineer',
-    skills: ['javascript', 'python', 'angular'],
-    period: '2017 - 2018',
-    logo: '/assets/images/logos/brainplow.jpg'
+    title: "Mpelembe Network",
+    alt: "CS image",
+    role: "Cloud Administrator/Developer",
+    skills: ["javascript", "firebase", "python", "typescript", "react", "google cloud"],
+    period: "2021 - Present",
+    logo: '/assets/images/logos/mpelembe.png'
+  },
+  {
+    title: "Nest Interactive",
+    alt: "Brainplow image",
+    role: "Community Founder and Technical Advisor",
+    skills: ["javascript", "python", "angular"],
+    period: "2020 - Present",
+    logo: '/assets/images/logos/nest.png'
   }
 ];
 
 export const institutes = [
   {
-    short_title: 'FAST - NUCES',
-    title: 'National University of Computer and Emerging Sciences',
-    alt: 'Nuces image',
-    role: "Bachelor's Degree in Computer Science",
-    skills: ['project management', 'web development', 'data structures'],
-    period: '2013 - 2017',
-    startingYear: '2013',
+    short_title: "Qwiklabs",
+    title: "Google Cloud Skills Boost",
+    alt: "Nuces image",
+    role: "Partner Advantage Certifications and Credentials",
+    skills: ["Google Workspace", "Google Cloud", "DevOps", "Cloud Architect"],
+    period: "2021 - Present",
+    startingYear: "2021",
     logo: '/assets/images/logos/fast.png',
     awards: [
       {
-        title: 'Speed Programming Battle',
-        description: 'Won speed programming battle which held at FAST - NUCES.',
-        date: 'May 1, 2015'
-      },
-      {
-        title: 'Silver Medal',
+        title: "Google Cloud Credential",
         description:
-          'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
-        date: 'May 1, 2014'
+          "Google Workspace: Deployment Specialist",
+        date: "January, 2022"
       },
       {
-        title: 'Speed Programming Battle',
-        description: 'Won speed programming battle which held at FAST - NUCES.',
-        date: 'Nov 1, 2013'
+        title: "Google Cloud Certification",
+        description:
+          "Google Cloud: Professional Cloud Developer",
+        date: "October, 2021"
       }
     ]
+  },
+  {
+    short_title: "CBU - IVTC",
+    title: "Copperbelt University",
+    alt: "Nuces image",
+    role: "Bachelor's Degree in Information and Communication Technology",
+    skills: ["networking", "software engineering", "data structures", "database management"],
+    period: "2018 - 2021",
+    startingYear: "2018",
+    logo: '/assets/images/logos/cbu.png'
   }
 ];
 
 export const skillsArray = [
-  {
-    name: 'Ruby on Rails',
-    description: 'Web development',
-    link: 'https://rubyonrails.org/',
-    type: 'development',
-    image: '/assets/images/skills/rails.png'
-  },
   {
     name: 'React',
     description: 'Web development',
     link: 'https://reactjs.org/',
     type: 'development',
     image: '/assets/images/skills/react.png'
-  },
-  {
-    name: 'Ruby',
-    description: 'Web development, scrapping',
-    link: 'https://www.ruby-lang.org/en/',
-    type: 'development',
-    image: '/assets/images/skills/ruby.png'
   },
   {
     name: 'Python',
@@ -108,14 +100,14 @@ export const skillsArray = [
     image: '/assets/images/skills/typescript.png'
   },
   {
-    name: 'Html5',
+    name: 'HTML 5',
     description: 'Web layouts',
     link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     type: 'development',
     image: '/assets/images/skills/html-5.png'
   },
   {
-    name: 'Css3',
+    name: 'CSS 3',
     description: 'Web design',
     link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     type: 'design',
@@ -136,32 +128,18 @@ export const skillsArray = [
     image: '/assets/images/skills/postgresql.png'
   },
   {
-    name: 'Mysql',
+    name: 'MySQL',
     description: 'Database',
     link: 'https://www.mysql.com/',
     type: 'database',
     image: '/assets/images/skills/mysql.png'
   },
   {
-    name: 'Redis',
-    description: 'Database',
-    link: 'https://redis.io/',
-    type: 'database',
-    image: '/assets/images/skills/redis.png'
-  },
-  {
-    name: 'Heroku',
-    description: 'Devops',
-    link: 'https://www.heroku.com/',
-    type: 'devops',
-    image: '/assets/images/skills/heroku.png'
-  },
-  {
-    name: 'AWS',
-    description: 'Devops',
-    link: 'https://aws.amazon.com/',
-    type: 'devops',
-    image: 'assets/images/skills/aws.png'
+    name: "Google Cloud Platform",
+    description: "Devops",
+    link: "https://cloud.google.com/",
+    type: "devops",
+    image: '/assets/images/skills/gcp.png'
   },
   {
     name: 'Digital Ocean',
@@ -171,9 +149,9 @@ export const skillsArray = [
     image: '/assets/images/skills/digital-ocean.png'
   },
   {
-    name: 'Nginx',
+    name: 'Node.js',
     description: 'Web server',
-    link: 'https://www.nginx.com/',
+    link: 'https://www.nodejs.org/',
     type: 'devops',
     image: '/assets/images/skills/nginx.png'
   },
@@ -195,17 +173,16 @@ export const skillsArray = [
 
 export const newContent = [
   {
-    link: '/blog/free-12-new-chakra-ui-components-templateskart',
-    text: 'Free 12 new Chakra UI components - TemplatesKart',
+    link: '',
+    text: 'Coming Soon!',
     showNewTag: true
   },
   {
-    link: '/blog/templateskart-free-chakra-ui-components-and-projects',
-    text: 'TemplatesKart | Free Chakra UI Components and Projects',
-    showNewTag: true
+    link: '',
+    text: 'Coming Soon!'
   },
   {
-    link: '/blog/started-2022-by-updating-portfolio-website-1jde-temp-slug-4553258',
-    text: 'Started 2022 by updating portfolio website'
+    link: '',
+    text: 'Coming Soon!'
   }
 ];

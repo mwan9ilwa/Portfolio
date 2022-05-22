@@ -24,7 +24,7 @@ export const extendedTheme = extendTheme({
   styles: {
     global: (props) => ({
       body: {
-        color: mode('gray.700', 'whiteAlpha.900')(props),
+        color: mode('gray.900', 'whiteAlpha.900')(props),
         bg: mode('gray.50', 'gray.900')(props),
         fontSize: '1.2em',
         '.deleted': {
@@ -37,7 +37,7 @@ export const extendedTheme = extendTheme({
         },
       },
       a: {
-        color: mode('blue.500', 'blue.200')(props),
+        color: mode('gray.500', 'blue.200')(props),
         transition: 'color 0.15s',
         transitionTimingFunction: 'ease-out',
         fontWeight: '500',
