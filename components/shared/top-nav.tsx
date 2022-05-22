@@ -32,6 +32,7 @@ import { useLinkColor } from 'components/theme';
 import { MotionBox } from 'components/shared/animations/motion';
 
 const webLinks = [
+  { name: 'Projects', path: '/projects' },
   { name: 'About', path: '/about' },
   { name: 'Blog', path: '/blog' }
 ];
@@ -171,7 +172,7 @@ export default function TopNav() {
                   size={'sm'}
                   showBorder={true}
                   borderColor={linkColor}
-                  src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+                  src={'https://avatars.githubusercontent.com/u/31941232?s=400&u=cb33363582c11870edec1ad0df49271d078eb51f&v=4'}
                 />
               </NextLink>
             </MotionBox>

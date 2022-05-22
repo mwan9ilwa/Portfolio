@@ -60,7 +60,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
+              src={'https://avatars.githubusercontent.com/u/31941232?s=400&u=cb33363582c11870edec1ad0df49271d078eb51f&v=4'}
             />
           </MotionBox>
         </MotionBox>
@@ -127,30 +127,29 @@ const Home: React.FC<BlogPostProps> = (props) => {
                   setShowEmoji(true)
                 }}
               >
-                Hey!
+                Hi I'm Mwangilwa!
               </Header>
             </MotionBox>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
-            My name is{' '}
+            I'm a {' '}
             <Box as="strong" fontWeight="600">
-              Ahmad
+              Software Engineer
             </Box>{' '}
-            and I&apos;m a{' '}
+            ,{' '}
             <Box as="span" whiteSpace="nowrap">
-              Full Stack Developer and
+            Cloud Developer, Google Cloud Professional and
             </Box>{' '}
             <Box as="span" whiteSpace="nowrap">
-              an open source lover&nbsp;
+              aa Google Workspace: Deployment Specialist&nbsp;
             </Box>
             from{' '}
             <Box as="span" whiteSpace="nowrap">
-              Pakistan 🇵🇰
+              Lusaka
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            This is my digital garden, where I write about the things I&apos;m
-            working on and share what I&apos;ve learned. 😊
+            Welcome to my digital nest.
           </Box>
         </MotionFlex>
       </Flex>
@@ -204,7 +203,7 @@ const ContentBox = ({ linkColor }) => {
         fromcolor="blue.400"
         tocolor="red.500"
       >
-        New year, new content:
+        Content:
       </Text>
       <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (

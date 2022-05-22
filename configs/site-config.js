@@ -1,52 +1,48 @@
+import React from "react";
 import {
   FaGithub,
-  FaDev,
   FaLinkedin,
-  FaQuora,
-  FaTwitter
+  FaTwitter,
+  FaDiscord
 } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+import {
+  FcGoogle,
+} from "react-icons/fc";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Muhammad Ahmad. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Mwangilwa Zimba. All Rights Reserved.`,
   author: {
-    name: "Muhammad Ahmad",
+    name: "Mwangilwa Zimba",
     accounts: [
       {
-        url: "https://github.com/MA-Ahmad",
-        label: "Github Account",
+        url: "https://github.com/mwan9ilwa",
+        label: "Github",
         type: "gray",
         icon: <FaGithub />
       },
       {
-        url: "https://twitter.com/muhammad_ahmaad",
-        label: "Twitter Account",
+        url: "https://twitter.com/mwan9ilwa_",
+        label: "Twitter",
         type: "twitter",
         icon: <FaTwitter />
       },
       {
-        url: "https://dev.to/m_ahmad",
-        label: "Dev Account",
+        url: "https://g.dev/mwan9ilwa",
+        label: "Google Developers",
         type: "gray",
-        icon: <FaDev />
+        icon: <FcGoogle />
       },
       {
-        url: "https://linkedin.com/in/muhammad-ahmad20",
-        label: "LinkedIn Account",
+        url: "https://linkedin.com/in/mwan9ilwa",
+        label: "LinkedIn",
         type: "linkedin",
         icon: <FaLinkedin />
       },
       {
-        url: "https://www.quora.com/profile/Muhammad-Ahmad-66",
-        label: "Quora Account",
-        type: "red",
-        icon: <FaQuora />
-      },
-      {
-        url: "mailto:muhammad.ahmad8043@gmail.com",
-        label: "Mail ahmad",
-        type: "gray",
-        icon: <FiMail />
+        url: "https://discord.com/mwan9ilwa#9432",
+        label: "Discord",
+        type: "discord",
+        icon: <FaDiscord />
       }
     ]
   }

@@ -9,6 +9,25 @@ import {
 } from "@chakra-ui/react";
 import siteConfig from "../../configs/site-config";
 
+interface ExternalLinkProps extends LinkProps {
+  url: string;
+  linkProps?: LinkProps;
+  text: string;
+}
+
+const ExternalLink: React.FC<ExternalLinkProps> = ({
+  url,
+  linkProps,
+  text,
+  ...props
+}) => {
+  return (
+    <Link href={url} {...linkProps} {...props}>
+      {text}
+    </Link>
+  );
+};
+
 const iconProps = {
   variant: "ghost",
   size: "lg",
@@ -41,25 +60,20 @@ const Footer = () => {
           fontSize="sm"
           color={useColorModeValue("gray.500", "gray.200")}
         >
-          © {new Date().getFullYear()} Muhammad Ahmad{" "}
+          © {new Date().getFullYear()} Mwangilwa Zimba{" "}
         </Text>
-        {/* <Box fontSize="md" textAlign="left">
-        Website built with
-        <Box
-          as="span"
-          mx="2"
-          _before={{
-            cursor: "default",
-            content: '"❤️"'
-          }}
-          _hover={{
-            _before: {
-              content: '"☕️"'
-            }
-          }}
-        />
-        in Pakistan{"  "}🇵🇰
-      </Box> */}
+        {<Text color="gray.500" fontSize="sm" textAlign="left">
+          Built on
+
+          <ExternalLink
+            color={useColorModeValue("gray.500", "gray.200")}
+            url="https://cloud.google.com"
+            text={" Google Cloud "}
+            target="_blank"
+          />
+          {"  "}
+
+        </Text>}
         {/* </HStack> */}
         <Box textAlign="center">
           {siteConfig.author.accounts.map((sc, index) => (
