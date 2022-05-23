@@ -34,7 +34,7 @@ export const getDbPosts = () => {
 
 export const getDevtoPosts = async () => {
   const res = await fetch(
-    `${DEVTO_API_URL}/articles?username=${process.env.DEVTO_USERNAME}`
+    `${DEVTO_API_URL}/articles?mwan9ilwa/published=${process.env.DEVTO_USERNAME}`
   )
 
   if (res.status < 200 || res.status >= 300) {

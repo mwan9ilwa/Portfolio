@@ -11,7 +11,7 @@ export const getAllArticles = async (): Promise<IArticle[]> => {
   const headers = { "api-key": process.env.DEVTO_APIKEY };
 
   const { data }: AxiosResponse = await axios.get(
-    `https://dev.to/api/articles/me`,
+    `https://dev.to/api/articles/me/published`,
     {
       params,
       headers
