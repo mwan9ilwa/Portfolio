@@ -2,6 +2,7 @@ import {
   Stack,
   IconButton,
   Link,
+  LinkProps,
   Box,
   Text,
   useColorModeValue,
