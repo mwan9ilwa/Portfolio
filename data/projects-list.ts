@@ -8,7 +8,7 @@ export const projectsList = [
   {
     id: 1,
     title: "Ticks",
-    logo: "/assets/images/projects/peterpitch.png",
+    logo: "/assets/images/projects/ticks.png",
     blurHash: "L4ADc400P*Zi4Tu1y;Qo00pH#YXl",
     link: "https://www.github.com/mwan9ilwa/ticks",
     desc: `Ticks is a To-Do tool powered by ReactJS. It is based on the MVC architectural pattern`,
@@ -25,6 +25,15 @@ export const projectsList = [
     technologies: ["php", "codeigniter", "javascript"]
   },
   {
+    id: 4,
+    title: "Forms",
+    logo: "/assets/images/projects/forms.png",
+    blurHash: "L1O^uE0679I00AGT?.H{00y7p2tK",
+    link: "https://www.github.com/mwan9ilwa/forms",
+    desc: `Forms is an user management system that runs on React and NodeJS.`,
+    technologies: ["react", "nodejs", "javascript"]
+  },
+  {
     id: 3,
     title: "Synergy Seeds Zambia",
     logo: "/assets/images/projects/workof.png",
@@ -35,18 +44,9 @@ export const projectsList = [
     technologies: ["wordpress", "woo-commerce", "javascript"]
   },
   {
-    id: 4,
-    title: "Forms",
-    logo: "/assets/images/projects/peterpitch.png",
-    blurHash: "L1O^uE0679I00AGT?.H{00y7p2tK",
-    link: "https://www.github.com/mwan9ilwa/forms",
-    desc: `Forms is an user management system that runs on React and NodeJS.`,
-    technologies: ["react", "nodejs", "javascript"]
-  },
-  {
     id: 5,
     title: "Hooks-Demo",
-    logo: "/assets/images/projects/gosave.png",
+    logo: "/assets/images/projects/hooks.png",
     blurHash: "L09sWSxdH;s?%6axWAfk00V?%jax",
     link: "https://www.github.com/mwan9ilwa/crud-hooks",
     desc: `This is a demo of a CRUD App with React Hooks.`,

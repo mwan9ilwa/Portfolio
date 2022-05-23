@@ -1,7 +1,7 @@
 export const projectsList = [
   {
     title: 'Ticks',
-    imageLight: '/assets/images/projects/cover/templateskart.png',
+    imageLight: '/assets/images/projects/cover/ticks.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://www.github.com/mwan9ilwa/ticks',
     gitHub: 'https://www.github.com/mwan9ilwa/ticks',
@@ -20,6 +20,16 @@ export const projectsList = [
     techStack: ['PHP', 'CodeIgniter', 'Javascript']
   },
   {
+    title: 'Forms',
+    site: 'https://www.github.com/mwan9ilwa/forms',
+    gitHub: 'https://www.github.com/mwan9ilwa/forms',
+    imageLight: '/assets/images/projects/cover/forms.png',
+    blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
+    description:
+      'Forms is an user management system that runs on React and NodeJS.',
+    techStack: ['React', 'Javascript']
+  },
+  {
     title: 'Synergy',
     imageLight: '/assets/images/projects/cover/peterpitch.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
@@ -29,18 +39,8 @@ export const projectsList = [
     techStack: ['WordPress', 'Woo-Commerce', 'Javascript']
   },
   {
-    title: 'Forms',
-    site: 'https://www.github.com/mwan9ilwa/forms',
-    gitHub: 'https://www.github.com/mwan9ilwa/forms',
-    imageLight: '/assets/images/projects/cover/notch.png',
-    blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
-    description:
-      'Forms is an user management system that runs on React and NodeJS.',
-    techStack: ['React', 'Javascript']
-  },
-  {
     title: 'Hooks-Demo',
-    imageLight: '/assets/images/projects/cover/workof.png',
+    imageLight: '/assets/images/projects/cover/hooks.png',
     blurHash: 'L2M5%%0000EN00I:-oIp00kC?^sl',
     site: 'https://www.github.com/mwan9ilwa/crud-hooks',
     gitHub: 'https://www.github.com/mwan9ilwa/crud-hooks',
