@@ -26,7 +26,7 @@ export const repositories = [
     title: "forms",
     description:
       "Forms is an user management system that runs on React and NodeJS.",
-    cover: '/assets/images/repositories/portfolio-v2.png',
+    cover: '/assets/images/repositories/forms.png',
     technologies: ["Nodejs", "React"],
     url: "https://www.github.com/mwan9ilwa/forms",
     live: "",
@@ -38,7 +38,7 @@ export const repositories = [
     title: "ticks",
     description:
       "Ticks is a To-Do tool powered by ReactJS. It is based on the MVC architectural pattern.",
-    cover: '/assets/images/repositories/portfolio-v2.png',
+    cover: '/assets/images/repositories/ticks.png',
     technologies: ["React", "JavaScript",],
     url: "https://www.github.com/mwan9ilwa/ticks",
     live: "",
@@ -62,7 +62,7 @@ export const repositories = [
     description:
       "This is a demo of a CRUD App with React Hooks.",
     technologies: ["React", "Nodejs"],
-    cover: '/assets/images/repositories/portfolio-v2.png',
+    cover: '/assets/images/repositories/hooks.png',
     url: "https://www.github.com/mwan9ilwa/crud-hooks",
     live: "",
     blurHash: "LMMaw^IV~pxu00%LRjNGAIIVadt6",
