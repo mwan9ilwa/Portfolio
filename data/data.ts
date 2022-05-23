@@ -1,11 +1,11 @@
 export const companies = [
   {
-    title: "ProLearn Technologies",
+    title: "ZamFind Technology",
     alt: "PS image",
     role: "Web Developer",
     skills: ["wordpress", "php", "javascript", "react", "google cloud"],
     period: "2022 - Present",
-    logo: '/assets/images/logos/prolearn.png'
+    logo: '/assets/images/logos/zamfind.jpeg'
   },
   {
     title: "Prudential Life",
@@ -153,7 +153,7 @@ export const skillsArray = [
     description: 'Web server',
     link: 'https://www.nodejs.org/',
     type: 'devops',
-    image: '/assets/images/skills/nginx.png'
+    image: '/assets/images/skills/node.png'
   },
   {
     name: 'Visual Studio Code',
@@ -163,11 +163,11 @@ export const skillsArray = [
     image: '/assets/images/skills/vscode.png'
   },
   {
-    name: 'Figma',
-    description: 'Collaborative Design',
-    link: 'https://www.figma.com/',
+    name: 'Firebase',
+    description: 'Hosting and Database',
+    link: 'https://www.firebase.google.com/',
     type: 'design',
-    image: '/assets/images/skills/figma.png'
+    image: '/assets/images/skills/firebase.png'
   }
 ];
 

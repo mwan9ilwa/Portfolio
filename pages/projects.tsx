@@ -12,9 +12,9 @@ import {
 } from 'components/layouts/projectLayout'
 import { ProjectProps } from 'interfaces/interface'
 
-const title = 'Projects 📚'
+const title = 'Projects'
 const subtitle =
-  "A selection of projects I've worked on, during my career as a software developer."
+  "Projects I've contributed too or worked on."
 
 const TURQUOISE = '#06b6d4'
 

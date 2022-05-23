@@ -64,7 +64,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
   };
 
   return (
-    <PageLayout title="Skills" keywords="rails, ruby, react, javascript, typescript">
+    <PageLayout title="Skills" keywords="firebase, gcp, react, javascript, typescript">
       <PageSlideFade>
         <VStack spacing={8}>
           <Section>
@@ -78,7 +78,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
                 maxW="lg"
                 textAlign="center"
               >
-                A list of my favorite tools and technologies that I use on a regular basis.
+                Technologies and Tools I use to get my work done.
               </Text>
             </VStack>
           </Section>

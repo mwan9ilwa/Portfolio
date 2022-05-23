@@ -2,8 +2,8 @@ import axios, { AxiosResponse } from "axios";
 import { IArticle } from "../interfaces/interface";
 import { convertMarkdownToHtml, sanitizeDevToMarkdown } from "./markdown";
 
-const username = "m_ahmad";
-const blogURL = "https://dev.to/m_ahmad";
+const username = "mwan9ilwa";
+const blogURL = "https://dev.to/mwan9ilwa";
 
 // Get all users articles from Dev.to and filter by ones with a canonical URL to your blog
 export const getAllArticles = async (): Promise<IArticle[]> => {

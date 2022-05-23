@@ -1,65 +1,51 @@
 export const projectsList = [
   {
-    title: 'TemplatesKart',
+    title: 'Ticks',
     imageLight: '/assets/images/projects/cover/templateskart.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://templateskart.com',
-    gitHub: 'https://github.com/MA-Ahmad/templatesKart',
+    site: 'https://www.github.com/mwan9ilwa/ticks',
+    gitHub: 'https://www.github.com/mwan9ilwa/ticks',
     description:
-      'TemplatesKart provides the best Chakra UI templates. Production-ready hand crafted Projects and Components built on top of ChakraUI.',
-    techStack: ['React', 'Nextjs', 'ChakraUI']
+      'Ticks is a To-Do tool powered by ReactJS. It is based on the MVC architectural pattern',
+    techStack: ['React', 'Node.js', 'Premitive CSS']
   },
   {
-    title: 'Smata',
+    title: 'News Blog',
     imageLight: '/assets/images/projects/cover/smata.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://smata.com/',
+    site: 'https://www.github.com/mwan9ilwa/news-blog',
+    gitHub: 'https://www.github.com/mwan9ilwa/news-blog',
     description:
-      'SMATA IS AN ALL-IN-ONE CLOUD-BASED SOLUTION, INTEGRATING MANAGEMENT, COMMUNICATION & ACCOUNTING FUNCTIONS.',
-    techStack: ['Rails', 'React', 'Javascript']
+      'This is a News Blog, wriiten in PHP. Bootstrapped with CodeIgniter 4, the Blog has CRUD fuctionality.',
+    techStack: ['PHP', 'CodeIgniter', 'Javascript']
   },
   {
-    title: 'Peterpitch',
+    title: 'Synergy',
     imageLight: '/assets/images/projects/cover/peterpitch.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://peterpitch.com/',
+    site: 'https://synergy.co.zm/',
     description:
-      'Peterpitch is a tool that takes the fun in your company seriously and turns your meetings into real performance boosters.',
-    techStack: ['Rails', 'React', 'Javascript']
+      'This is an Agri-Business site with Ecommerce capabilities. It provides a single platform to multiple vendors where they can put their products on sale.',
+    techStack: ['WordPress', 'Woo-Commerce', 'Javascript']
   },
   {
-    title: 'Notch',
-    site: 'https://www.hellonotch.com/',
+    title: 'Forms',
+    site: 'https://www.github.com/mwan9ilwa/forms',
+    gitHub: 'https://www.github.com/mwan9ilwa/forms',
     imageLight: '/assets/images/projects/cover/notch.png',
     blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
     description:
-      'This is a project management website for design and procurement teams. It helps to collaborate and manage all of your floor plans in one place.',
-    techStack: ['Rails', 'Javascript']
+      'Forms is an user management system that runs on React and NodeJS.',
+    techStack: ['React', 'Javascript']
   },
   {
-    title: 'Workof Ecommerce',
+    title: 'Hooks-Demo',
     imageLight: '/assets/images/projects/cover/workof.png',
     blurHash: 'L2M5%%0000EN00I:-oIp00kC?^sl',
-    site: 'https://workof.com/',
+    site: 'https://www.github.com/mwan9ilwa/crud-hooks',
+    gitHub: 'https://www.github.com/mwan9ilwa/crud-hooks',
     description:
-      'This is an Ecommerce furniture site. It provides a single platform to multiple vendors where they can put their products on sale.',
-    techStack: ['Rails', 'Javascript']
-  },
-  {
-    title: 'Souq of Qatar',
-    imageLight: '/assets/images/projects/cover/souq.png',
-    blurHash: 'L1O^uE0679I00AGT?.H{00y7p2tK',
-    site: 'https://www.souqofqatar.com/',
-    description:
-      'Souq of Qatar is online comparison website. This website is independent of any retailers, it displays the products of all the major stores.',
-    techStack: ['Rails', 'Javascript']
-  },
-  {
-    title: 'GoSave',
-    imageLight: '/assets/images/projects/cover/gosave.png',
-    blurHash: 'L09sWSxdH;s?%6axWAfk00V?%jax',
-    site: 'https://gosavehq.com/',
-    description: `The GoSave app let's you send allowances, assign chores, and approve spending all from your smartphone.`,
-    techStack: ['Rails']
+      'This is a demo of a CRUD App with React Hooks.',
+    techStack: ['React', 'Javascript']
   }
 ];

@@ -16,7 +16,7 @@ import PrList from 'components/changelog/List'
 const TURQUOISE = '#06b6d4'
 const title = 'Changelog'
 const subtitle =
-  "The Changelog gives an overview of the meaningful changes I've made to my portfolio website."
+  "The Changelog gives an overview of the meaningful changes I've made to my portfolio."
 
 const ChangeLog = () => {
   const { prData, isLoading } = fetchPRsData()

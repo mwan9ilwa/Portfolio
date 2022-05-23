@@ -7,7 +7,7 @@ import { transparentize } from '@chakra-ui/theme-tools'
 
 export const linkColors = {
   light: 'accent.400',
-  dark: 'accent.800',
+  dark: 'accent.500',
   lhover: 'accent.200',
   dhover: 'accent.700',
   visitedLight: 'accent.300',

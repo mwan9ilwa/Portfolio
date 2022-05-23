@@ -41,7 +41,7 @@ const RepositoriesList = ({ repositories }) => {
   }
 
   return (
-    <PageLayout title="Open-source" keywords="A list of open source projects">
+    <PageLayout title="Open-Source" keywords="A list of open source projects">
       <PageSlideFade>
         <VStack align="start" spacing={3}>
           <HStack justifyContent={'space-between'} width={'100%'}>
@@ -77,8 +77,7 @@ const RepositoriesList = ({ repositories }) => {
             color={useColorModeValue('gray.500', 'gray.200')}
             textAlign="left"
           >
-            This page lists some of the open source repositories I have
-            published or contributed to.
+            My publications or contributions to open-source.
           </Text>
         </VStack>
         {activeTab === 'live' ? (

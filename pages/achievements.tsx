@@ -3,7 +3,7 @@ import PageLayout from 'components/layouts/pageLayout'
 
 const Index = () => {
   return (
-    <PageLayout title="Achievements" keywords="My achievements">
+    <PageLayout title="Timeline" keywords="My timeline">
       <Achievements />
     </PageLayout>
   )

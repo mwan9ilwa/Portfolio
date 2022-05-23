@@ -19,12 +19,10 @@ import {
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 import { ColorModeSwitcher } from '../theme/ColorModeSwitcher';
-import { AiTwotoneThunderbolt } from 'react-icons/ai';
 import { BiChevronDown } from 'react-icons/bi';
-import { CgArrowsExchange } from 'react-icons/cg';
 import { BsCheckCircle } from 'react-icons/bs';
 import { MdTimeline } from 'react-icons/md';
-import { BsBook } from 'react-icons/bs';
+import { RiArticleFill, RiStackFill, RiExchangeFill, RiOpenSourceFill } from 'react-icons/ri';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { AccentPicker } from 'components/theme/Accent';
@@ -33,22 +31,22 @@ import { MotionBox } from 'components/shared/animations/motion';
 
 const webLinks = [
   { name: 'Projects', path: '/projects' },
-  { name: 'About', path: '/about' },
-  { name: 'Blog', path: '/blog' }
+  { name: 'Timeline', path: '/achievements' },
+  { name: 'About', path: '/about' }
 ];
 
 const mobileLinks = [
   { name: 'Projects', path: '/projects' },
+  { name: 'Timeline', path: '/achievements' },
   { name: 'Open Source', path: '/open-source' },
-  { name: 'Blog', path: '/blog' },
-  { name: 'Changelog', path: '/changelog' }
+  { name: 'Articles', path: '/blog' },
+  { name: 'About', path: '/about' }
 ];
 
 const dropdownLinks = [
-  { name: 'Projects', path: '/projects' },
+  { name: 'Articles', path: '/blog' },
   { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Open Source', path: '/open-source' },
-  { name: 'Achievements', path: '/achievements' },
   { name: 'Changelog', path: '/changelog' }
   // { name: "Developer Story", path: "/developer-story" }
 ];
@@ -101,11 +99,12 @@ interface MenuLinkProps {
 
 const MenuLink = (props: MenuLinkProps) => {
   const iconsObj = {
-    '/tech-stack': <Icon as={AiTwotoneThunderbolt} size={18} color={props.color} />,
-    '/open-source': <Icon as={BsBook} size={18} color={props.color} />,
+    '/tech-stack': <Icon as={RiStackFill} size={18} color={props.color} />,
+    '/blog': <Icon as={RiArticleFill} size={18} color={props.color} />,
+    '/open-source': <Icon as={RiOpenSourceFill} size={18} color={props.color} />,
     '/achievements': <Icon as={BsCheckCircle} size={18} color={props.color} />,
     '/projects': <Icon as={MdTimeline} size={18} color={props.color} />,
-    '/changelog': <Icon as={CgArrowsExchange} size={18} color={props.color} />
+    '/changelog': <Icon as={RiExchangeFill} size={18} color={props.color} />
   };
 
   return (

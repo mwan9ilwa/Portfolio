@@ -45,10 +45,10 @@ const Posts = ({ posts }) => {
 
   return (
     <Fragment>
-      <PageLayout title="Blog" description="A list of all articles and posts!">
+      <PageLayout title="Articles" description="Tutorials, technical articles, snippets, reference materials, and all development-related resources I've written.">
         <PageSlideFade>
           <Header underlineColor={TURQUOISE} mt={0} mb={6}>
-            Featured Articles
+            Articles
           </Header>
           <InputGroup maxW="30rem">
             <Input

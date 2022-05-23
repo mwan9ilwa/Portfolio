@@ -62,7 +62,7 @@ const Achievements = () => {
     <PageSlideFade>
       <Box align="start" mb={6}>
         <Header mt={0} mb={0}>
-          Achievements
+          Timeline
         </Header>
       </Box>
       <VStack textAlign="start" align="start" mb={5}>
