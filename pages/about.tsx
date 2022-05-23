@@ -172,7 +172,7 @@ const About = ({ companies, institutes }) => {
     >
       
       <PageSlideFade>
-          <Box align="center" fontWeight="800" mb={5}>
+          <Box align="center" fontSize="30" fontWeight="800" mb={5}>
               <Text>About Me</Text>
 
               <br></br>
@@ -185,7 +185,7 @@ const About = ({ companies, institutes }) => {
 
           <VStack textAlign="start" align="start" mb={5}>
               <Box>
-                  <Text fontSize="1xl" fontWeight="800" my={5} color={linkColor}>
+                  <Text fontSize="20" fontWeight="600" my={5} color={linkColor}>
                       What I'm doing now
                   </Text>
                   <Text
@@ -212,7 +212,7 @@ const About = ({ companies, institutes }) => {
               </Box>
                 
               <Box>
-                  <Text fontSize="1xl" fontWeight="800" my={5} color={linkColor}>
+                  <Text fontSize="20" fontWeight="600" my={5} color={linkColor}>
                       Let's Connect
                   </Text>
                   <Text
@@ -258,7 +258,7 @@ const About = ({ companies, institutes }) => {
                 
                 
               <Box>
-                  <Text fontSize="1xl" fontWeight="800" my={5} color={linkColor}>
+                  <Text fontSize="20" fontWeight="600" my={5} color={linkColor}>
                       Quotes
                   </Text>
               </Box>
@@ -323,7 +323,7 @@ const About = ({ companies, institutes }) => {
                 
                 
               <Box>
-                  <Text fontSize="1xl" fontWeight="800" my={5} color={linkColor}>
+                  <Text fontSize="20" fontWeight="600" my={5} color={linkColor}>
                       Technical Gear
                   </Text>
                   <Text
@@ -453,7 +453,7 @@ const About = ({ companies, institutes }) => {
           <MotionBox>
             <Heading>
               <Flex alignItems="center">
-                <Text fontSize="23" fontWeight="800" my={5} color={linkColor}>
+                <Text fontSize="20" fontWeight="600" my={5} color={linkColor}>
                   Experience
                 </Text>
               </Flex>
@@ -482,7 +482,7 @@ const About = ({ companies, institutes }) => {
           </VStack>
           <Heading>
             <Flex alignItems="center">
-              <Text fontSize="23" fontWeight="800" my={5} color={linkColor}>
+              <Text fontSize="20" fontWeight="600" my={5} color={linkColor}>
                 Education
               </Text>
               
