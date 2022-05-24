@@ -131,8 +131,8 @@ export default function TopNav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const menuProps = {
-    bg: useColorModeValue('gray.200', 'gray.700'),
-    color: useColorModeValue('blue.500', 'blue.200')
+    bg: useColorModeValue('gray.200', 'gray.900'),
+    color: useColorModeValue('gray.100', 'gray.800')
   };
 
   return (
@@ -144,8 +144,8 @@ export default function TopNav() {
         width="100%"
         zIndex="55"
         css={{
-          backdropFilter: 'saturate(180%) blur(5px)',
-          backgroundColor: useColorModeValue('rgba(255, 255, 255, 0.8)', 'rgba(26, 32, 44, 0.8)')
+          backdropFilter: 'saturate(180%) blur(90px)',
+          backgroundColor: useColorModeValue('rgba(255, 255, 255, 0.8)', 'rgba(32, 34, 38, 0.8)')
         }}
       >
         <Flex
@@ -214,11 +214,11 @@ export default function TopNav() {
                     </MenuButton>
                     <MenuList
                       zIndex={5}
-                      bg={useColorModeValue('rgb(255, 255, 255)', 'rgb(26, 32, 44)')}
+                      bg={useColorModeValue('rgb(255, 255, 255)', 'rgb(32, 34, 38)')}
                       border="none"
                       boxShadow={useColorModeValue(
                         '2px 4px 6px 2px rgba(160, 174, 192, 0.6)',
-                        '2px 4px 6px 2px rgba(9, 17, 28, 0.6)'
+                        '2px 4px 6px 2px rgba(32, 34, 38, 0.6)'
                       )}
                     >
                       {dropdownLinks.map((link, index) => (

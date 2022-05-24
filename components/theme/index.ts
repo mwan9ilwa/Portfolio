@@ -24,8 +24,8 @@ export const extendedTheme = extendTheme({
   styles: {
     global: (props) => ({
       body: {
-        color: mode('gray.700', 'whiteAlpha.900')(props),
-        bg: mode('gray.50', 'gray.900')(props),
+        color: mode('gray.800', 'whiteAlpha.900')(props),
+        bg: mode('gray.50', 'gray.1000')(props),
         fontSize: '1.2em',
         '.deleted': {
           color: '#ff8383 !important',
@@ -37,7 +37,7 @@ export const extendedTheme = extendTheme({
         },
       },
       a: {
-        color: mode('blue.500', 'blue.200')(props),
+        color: mode('gray.900', 'gray.200')(props),
         transition: 'color 0.15s',
         transitionTimingFunction: 'ease-out',
         fontWeight: '500',
@@ -107,7 +107,7 @@ export const extendedTheme = extendTheme({
         },
         variants: {
           text: {
-            color: 'blue.400',
+            color: 'gray.400',
             transition: 'color 0.15s',
             transitionTimingFunction: 'ease-out',
             fontWeight: '500',
@@ -116,11 +116,11 @@ export const extendedTheme = extendTheme({
             },
           },
           gradient: {
-            bgGradient: 'linear(to-br, blue.400,blue.300)',
+            bgGradient: 'linear(to-br, gray.400,gray.300)',
             bgClip: 'text',
             fontWeight: '500',
             _hover: {
-              bgGradient: 'linear(to-br, blue.500,blue.300)',
+              bgGradient: 'linear(to-br, gray.500,gray.300)',
               bgClip: 'text',
             },
           },

@@ -24,7 +24,7 @@ import PageLayout from 'components/layouts/pageLayout'
 import { BiSearch } from 'react-icons/bi'
 import { getDbPosts, getDevtoPosts } from 'lib/fetchPosts'
 
-const TURQUOISE = '#06b6d4'
+const TURQUOISE = '#202226'
 
 const Posts = ({ posts }) => {
   const [searchValue, setSearchValue] = useState('')
@@ -54,7 +54,7 @@ const Posts = ({ posts }) => {
             <Input
               placeholder="Search articles"
               onChange={(e) => setSearchValue(e.target.value)}
-              background={useColorModeValue('gray.100', '#1e2533')}
+              background={useColorModeValue('gray.100', '#202226')}
             />
             <InputRightElement>
               <Icon as={BiSearch} w={6} h={6} />

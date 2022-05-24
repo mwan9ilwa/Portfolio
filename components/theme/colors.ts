@@ -7,7 +7,7 @@ import { transparentize } from '@chakra-ui/theme-tools'
 
 export const linkColors = {
   light: 'accent.400',
-  dark: 'accent.500',
+  dark: 'accent.400',
   lhover: 'accent.200',
   dhover: 'accent.700',
   visitedLight: 'accent.300',
@@ -40,7 +40,7 @@ export const colors = {
   ...defaultTheme.colors,
   gray: {
     ...defaultTheme.colors.gray,
-    1000: '#121721',
+    1000: '#0f0f0f',
   },
   defaultAccent: {
     50: '#e3f2fc',
@@ -52,7 +52,7 @@ export const colors = {
     600: '#0053b4',
     700: '#003b82',
     800: '#002451',
-    900: '#000d21',
+    900: '#0f0f0f',
   },
   accent: {
     // See src/components/Accent.tsx for CSS variable definition

@@ -55,6 +55,7 @@ export const AccentGlobal: React.FC = () => {
         --colors-accent-700: ${accent[700]};
         --colors-accent-800: ${accent[800]};
         --colors-accent-900: ${accent[900]};
+        --colors-accent-1000: ${accent[1000]};
         --colors-accent-tag-bg-dark: ${getTagBackgroundDark(accentKey, theme)};
       }
     `,

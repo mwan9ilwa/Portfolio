@@ -36,7 +36,7 @@ export const ColorModeSwitcher: React.FC<ColorModeSwitcherProps> = (props) => {
         exit={{ y: 20, opacity: 0 }}
         transition={{ duration: 0.2 }}
         cursor="pointer"
-        fontSize={['2xl', '3xl', '3xl']}
+        fontSize={['2xl', '2xl', '2xl']}
       >
         {mode === 'dark' ? '🌤' : '🌙'}
       </MotionBox>

@@ -290,7 +290,7 @@ const About = ({ companies, institutes }) => {
                           borderColor={linkColor}
                           color={"whatsapp"}
                           _hover={{ shadow: "lg" }}
-                          backgroundColor={useColorModeValue("gray.100", "#1e2533")}
+                          backgroundColor={useColorModeValue("gray.100", "#202226")}
                           rounded="md"
                           fontSize="md"
                       >

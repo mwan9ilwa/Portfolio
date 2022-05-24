@@ -55,12 +55,12 @@ const Home: React.FC<BlogPostProps> = (props) => {
           m="auto"
           mb={[16, 16, 'auto']}
         >
-          <MotionBox whileHover={{ scale: 1.2 }} rounded="full" shadow="lg">
+          <MotionBox whileHover={{ scale: 1.5 }} rounded="full" shadow="lg">
             <Avatar
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars.githubusercontent.com/u/31941232?s=400&u=cb33363582c11870edec1ad0df49271d078eb51f&v=4'}
+              src={'https://avatars.githubusercontent.com/u/31941232?s=400&u=2c8f7e9f2df927fe698271da078c68de7c6856f1&v=4'}
             />
           </MotionBox>
         </MotionBox>
@@ -118,7 +118,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
             <MotionBox whileHover={{ translateY: -5 }} width="max-content">
               <Header
                 underlineColor={ORANGE}
-                emoji="👋"
+                emoji=""
                 mt={0}
                 cursor="pointer"
                 width="max-content"
@@ -127,7 +127,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
                   setShowEmoji(true)
                 }}
               >
-                Hi I'm Mwangilwa!
+                Hi I'm Mwangi!
               </Header>
             </MotionBox>
           </Box>
@@ -135,17 +135,17 @@ const Home: React.FC<BlogPostProps> = (props) => {
             I'm a {' '}
             <Box as="strong" fontWeight="600">
               Software Engineer
-            </Box>{' '}
+            </Box>{''}
             ,{' '}
             <Box as="span" whiteSpace="nowrap">
-            Cloud Developer, Google Cloud Professional and
+            Google Cloud Developer, and
             </Box>{' '}
             <Box as="span" whiteSpace="nowrap">
-              aa Google Workspace: Deployment Specialist&nbsp;
+            Google Workspace: Deployment Specialist&nbsp;
             </Box>
-            from{' '}
+            and Tech Enthusiast {' '}
             <Box as="span" whiteSpace="nowrap">
-              Lusaka
+            from Lusaka. 
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
@@ -186,11 +186,11 @@ const ContentBox = ({ linkColor }) => {
       mx={[0, 0, 10]}
       padding={4}
       align="start"
-      borderLeft="4px solid"
+      borderLeft="10px solid"
       borderColor={linkColor}
       color={'whatsapp'}
       _hover={{ shadow: 'lg' }}
-      backgroundColor={useColorModeValue('gray.100', '#1e2533')}
+      backgroundColor={useColorModeValue('gray.100', '#202226')}
       rounded="sm"
       fontSize="md"
     >
