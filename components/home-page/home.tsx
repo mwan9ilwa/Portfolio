@@ -15,7 +15,8 @@ import { MotionBox, MotionFlex } from 'components/shared/animations/motion'
 import Header from 'components/shared/header'
 import NextLink from 'next/link'
 import { useLinkColor } from 'components/theme'
-import PopularArticles from './PopularArticles'
+import TechStack from 'pages/tech-stack'
+import { skillsArray } from 'data/data'
 import { BlogPostProps } from 'interfaces/interface'
 import { newContent } from 'data/data'
 
@@ -154,6 +155,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
         </MotionFlex>
       </Flex>
 
+      
       <MotionBox
         w="100%"
         opacity="0"
@@ -172,7 +174,8 @@ const Home: React.FC<BlogPostProps> = (props) => {
       >
         <Box mt={10}>
           <ContentBox linkColor={linkColor} />
-          <PopularArticles posts={posts} />
+          <TechStack tech-stack={skillsArray} skills={[]} />
+          
         </Box>
       </MotionBox>
     </Flex>
