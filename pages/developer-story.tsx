@@ -6,7 +6,7 @@ import Meta from 'components/shared/meta'
 const Index = ({ companies, institutes }) => {
   return (
     <React.Fragment>
-      <Meta title="Open-source" keywords="My professional journey" />
+      <Meta title="Resume" keywords="My professional journey" />
       <MyStory companies={companies} institutes={institutes} />
     </React.Fragment>
   )

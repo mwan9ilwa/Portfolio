@@ -30,26 +30,17 @@ import { useLinkColor } from 'components/theme';
 import { MotionBox } from 'components/shared/animations/motion';
 
 const webLinks = [
+  { name: 'Resume', path: '/developer-story' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Timeline', path: '/achievements' },
   { name: 'About', path: '/about' }
 ];
 
 const mobileLinks = [
+  { name: 'Resume', path: '/developer-story' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Timeline', path: '/achievements' },
-  { name: 'Open Source', path: '/open-source' },
-  { name: 'Articles', path: '/blog' },
   { name: 'About', path: '/about' }
 ];
 
-const dropdownLinks = [
-  { name: 'Articles', path: '/blog' },
-  { name: 'Tech Stack', path: '/tech-stack' },
-  { name: 'Open Source', path: '/open-source' },
-  { name: 'Changelog', path: '/changelog' }
-  // { name: "Developer Story", path: "/developer-story" }
-];
 
 interface NavLinkProps {
   index?: number;
@@ -185,57 +176,7 @@ export default function TopNav() {
                   onClose={onClose}
                 />
               ))}
-              <Menu autoSelect={false} isLazy>
-                {({ isOpen, onClose }) => (
-                  <>
-                    <MenuButton
-                      as={Button}
-                      variant="ghost"
-                      size="sm"
-                      px={3}
-                      py={1}
-                      lineHeight="inherit"
-                      fontSize={'1em'}
-                      rounded={'md'}
-                      height={'auto '}
-                      _focus={{ boxShadow: 'none' }}
-                      _hover={{ color: linkColor, bg: menuProps.bg }}
-                      _active={{ bg: menuProps.bg }}
-                    >
-                      Links
-                      <Icon
-                        as={BiChevronDown}
-                        h={5}
-                        w={5}
-                        ml={1}
-                        transition={'all .25s ease-in-out'}
-                        transform={isOpen ? 'rotate(180deg)' : ''}
-                      />
-                    </MenuButton>
-                    <MenuList
-                      zIndex={5}
-                      bg={useColorModeValue('rgb(255, 255, 255)', 'rgb(32, 34, 38)')}
-                      border="none"
-                      boxShadow={useColorModeValue(
-                        '2px 4px 6px 2px rgba(160, 174, 192, 0.6)',
-                        '2px 4px 6px 2px rgba(32, 34, 38, 0.6)'
-                      )}
-                    >
-                      {dropdownLinks.map((link, index) => (
-                        <MenuLink
-                          key={index}
-                          path={link.path}
-                          name={link.name}
-                          onClose={onClose}
-                          color={linkColor}
-                          bg={menuProps.bg}
-                          rPath={router.pathname}
-                        />
-                      ))}
-                    </MenuList>
-                  </>
-                )}
-              </Menu>
+            
             </HStack>
           </HStack>
           <Flex alignItems={'center'}>

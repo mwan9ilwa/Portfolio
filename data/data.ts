@@ -173,16 +173,16 @@ export const skillsArray = [
 
 export const newContent = [
   {
-    link: '',
-    text: 'Coming Soon!',
+    link: '/changelog',
+    text: 'Change Log',
     showNewTag: true
   },
   {
-    link: '',
-    text: 'Coming Soon!'
+    link: '/tech-stack',
+    text: 'Skills'
   },
   {
-    link: '',
-    text: 'Coming Soon!'
+    link: '/open-source',
+    text: 'GitHub'
   }
 ];

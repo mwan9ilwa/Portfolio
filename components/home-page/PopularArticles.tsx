@@ -134,7 +134,7 @@ const PopularArticles: React.FC<BlogPostProps> = (props) => {
                             fontWeight="600"
                             color={textColor}
                           >
-                            {moment(published_at).format('Do MMMM YYYY')}
+                            {moment(published_at).format('DD MMMM YYYY')}
                           </Text>
                         </Tooltip>
                         {positive_reactions_count ? (

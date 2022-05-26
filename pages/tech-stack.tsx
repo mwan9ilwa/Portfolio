@@ -64,21 +64,21 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
   };
 
   return (
-    <PageLayout title="Skills" keywords="firebase, gcp, react, javascript, typescript">
+    <PageLayout title="Skills">
       <PageSlideFade>
         <VStack spacing={8}>
           <Section>
             <VStack>
               <Header mt={0} mb={1}>
-                Tech Stack
+                Skills
               </Header>
               <Text
                 fontSize={'xl'}
-                color={useColorModeValue('gray.500', 'gray.200')}
+                color={useColorModeValue('gray.500', 'gray.100')}
                 maxW="lg"
                 textAlign="center"
               >
-                Technologies and Tools I use to get my work done.
+                Skills and Technologies I use to get my work done.
               </Text>
             </VStack>
           </Section>
@@ -88,7 +88,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
                 {tabList.map((tab, index) => (
                   <Tab
                     bg={useColorModeValue('gray.100', 'gray.800')}
-                    color={useColorModeValue('gray.600', 'gray.500')}
+                    color={useColorModeValue('gray.600', 'gray.100')}
                     _selected={{
                       color: 'white',
                       bg: bgColor

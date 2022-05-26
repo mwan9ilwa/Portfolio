@@ -23,7 +23,7 @@ const MyStory = ({ companies, institutes }) => {
         <PageSlideFade>
           <VStack>
             <Header mt={0} mb={1}>
-              Developer Story
+              My Professional Timeline
             </Header>
           </VStack>
         </PageSlideFade>

@@ -15,8 +15,8 @@ import { MotionBox, MotionFlex } from 'components/shared/animations/motion'
 import Header from 'components/shared/header'
 import NextLink from 'next/link'
 import { useLinkColor } from 'components/theme'
-import TechStack from 'pages/tech-stack'
-import { skillsArray } from 'data/data'
+
+import PopularArticles from './PopularArticles'
 import { BlogPostProps } from 'interfaces/interface'
 import { newContent } from 'data/data'
 
@@ -174,7 +174,8 @@ const Home: React.FC<BlogPostProps> = (props) => {
       >
         <Box mt={10}>
           <ContentBox linkColor={linkColor} />
-          <TechStack tech-stack={skillsArray} skills={[]} />
+
+          <PopularArticles posts={posts} />
           
         </Box>
       </MotionBox>
@@ -194,7 +195,7 @@ const ContentBox = ({ linkColor }) => {
       color={'whatsapp'}
       _hover={{ shadow: 'lg' }}
       backgroundColor={useColorModeValue('gray.100', '#202226')}
-      rounded="sm"
+      rounded="md"
       fontSize="md"
     >
       <Text
@@ -202,13 +203,13 @@ const ContentBox = ({ linkColor }) => {
         color="#53c8c4"
         fontWeight="bold"
         fontSize={['md', 'lg']}
-        variant="gradient"
+        variant="solid"
         fromcolor="blue.400"
         tocolor="red.500"
       >
-        Content:
+        Contents
       </Text>
-      <UnorderedList textAlign="left" paddingLeft={5} m={0}>
+      <UnorderedList textAlign="left" paddingLeft={5} m={5}>
         {newContent.map((content, index) => (
           <ListItem key={index}>
             <NextLink href={content.link} passHref>
