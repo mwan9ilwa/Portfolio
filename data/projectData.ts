@@ -21,7 +21,7 @@ export const projectsList = [
   },
   {
     title: 'Forms',
-    site: 'https://www.github.com/mwan9ilwa/forms',
+    site: 'https://react-sample-form.netlify.app',
     gitHub: 'https://www.github.com/mwan9ilwa/forms',
     imageLight: '/assets/images/projects/cover/forms.png',
     blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',

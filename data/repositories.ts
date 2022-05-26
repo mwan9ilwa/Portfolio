@@ -29,7 +29,7 @@ export const repositories = [
     cover: '/assets/images/repositories/forms.png',
     technologies: ["Nodejs", "React"],
     url: "https://www.github.com/mwan9ilwa/forms",
-    live: "",
+    live: "https://react-sample-form.netlify.app",
     blurHash: "LMOWg4wIS$WBH?sAkCR*?^bcnNoy",
     stars: "4",
     fork: "1"
