@@ -3,7 +3,7 @@ export const projectsList = [
     title: 'Ticks',
     imageLight: '/assets/images/projects/cover/ticks.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://www.github.com/mwan9ilwa/ticks',
+    site: 'https://react-sample-ticks.netlify.app/',
     gitHub: 'https://www.github.com/mwan9ilwa/ticks',
     description:
       'Ticks is a To-Do tool powered by ReactJS. It is based on the MVC architectural pattern',

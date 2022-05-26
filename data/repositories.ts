@@ -41,7 +41,7 @@ export const repositories = [
     cover: '/assets/images/repositories/ticks.png',
     technologies: ["React", "JavaScript",],
     url: "https://www.github.com/mwan9ilwa/ticks",
-    live: "",
+    live: "https://react-sample-ticks.netlify.app/",
     blurHash: "L4S~x5xb~q$*~WR6MykCx^Vt4TtP",
     stars: "8",
     fork: "0"
