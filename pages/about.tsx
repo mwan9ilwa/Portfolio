@@ -463,12 +463,12 @@ const About = ({ companies, institutes }) => {
       
       <PageSlideFade>
         <Box align="start"  mt={10} mb={0}>
-          <Text fontSize="20" fontWeight="600" my={5} color={linkColor} mt={0} mb={0}>
+          <Text fontSize="20" fontWeight="400" my={5} color={linkColor} mt={0} mb={0}>
             Timeline
           </Text>
         </Box>
         <VStack textAlign="start" align="start" mb={5}>
-          <Box fontSize="16" fontWeight="600" zIndex={5}>
+          <Box fontSize="16" fontWeight="400" zIndex={5}>
             <Text my={5}>
               2022
             </Text>
@@ -507,7 +507,7 @@ const About = ({ companies, institutes }) => {
             </Box>
           </Box>
 
-          <Box fontSize="16" fontWeight="600" zIndex={5}>
+          <Box fontSize="16" fontWeight="400" zIndex={5}>
             <Text my={5}>
               2021
             </Text>
@@ -546,7 +546,7 @@ const About = ({ companies, institutes }) => {
             </Box>
           </Box>
 
-          <Box fontSize="16" fontWeight="600">
+          <Box fontSize="16" fontWeight="400">
             <Text>
               2020
             </Text>
@@ -561,7 +561,7 @@ const About = ({ companies, institutes }) => {
             </Box>
           </Box>
         
-          <Box fontSize="16" fontWeight="600">
+          <Box fontSize="16" fontWeight="400">
             <Text my={5}>
               2019
             </Text>
@@ -572,7 +572,7 @@ const About = ({ companies, institutes }) => {
             </Box>
           </Box>
         
-          <Box fontSize="16" fontWeight="600">
+          <Box fontSize="16" fontWeight="400">
             <Text my={5}>
               2018
             </Text>
