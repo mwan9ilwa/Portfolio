@@ -11,7 +11,7 @@ export const projectsList = [
   },
   {
     title: 'News Blog',
-    imageLight: '/assets/images/projects/cover/smata.png',
+    imageLight: '/assets/images/projects/cover/newsblog.jpg',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://www.github.com/mwan9ilwa/news-blog',
     gitHub: 'https://www.github.com/mwan9ilwa/news-blog',
@@ -31,7 +31,7 @@ export const projectsList = [
   },
   {
     title: 'Synergy',
-    imageLight: '/assets/images/projects/cover/peterpitch.png',
+    imageLight: '/assets/images/projects/cover/synergy.jpg',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://synergy.co.zm/',
     description:

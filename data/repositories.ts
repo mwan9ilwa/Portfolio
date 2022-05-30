@@ -49,7 +49,7 @@ export const repositories = [
   {
     title: "news-blog",
     description: "This is a News Blog, wriiten in PHP. Bootstrapped with CodeIgniter 4, the Blog has CRUD fuctionality.",
-    cover: '/assets/images/repositories/portfolio-v2.png',
+    cover: '/assets/images/repositories/newsblog.jpg',
     technologies: ["PHP", "JavaScript", "CodeIgniter"],
     url: "https://www.github.com/mwan9ilwa/news-blog",
     live: "",
