@@ -17,7 +17,7 @@ const Header = ({
     as="h1"
     mt={10}
     mb={6}
-    fontSize="3xl"
+    fontSize="25"
     lineHeight="shorter"
     fontWeight="bold"
     {...props}

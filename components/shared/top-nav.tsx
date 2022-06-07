@@ -7,6 +7,8 @@ import {
   Text,
   Link,
   IconButton,
+  Image,
+  Img,
   useDisclosure,
   useColorModeValue,
   Menu,
@@ -155,17 +157,17 @@ export default function TopNav() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <MotionBox whileHover={{ scale: 1.2 }} shadow="md" rounded="full">
+            <IconButton size={'sm'} aria-label={'Open Menu'}  >
               <NextLink href={'/'} passHref>
-                <Avatar
+                <Text 
+                  fontSize="20" 
+                  fontWeight="600"
                   as={Link}
-                  size={'sm'}
-                  showBorder={true}
-                  borderColor={linkColor}
-                  src={'https://avatars.githubusercontent.com/u/31941232?s=400&u=cb33363582c11870edec1ad0df49271d078eb51f&v=4'}
-                />
+                >
+                  {'_'}Mwangilwa{'_'}
+                </Text> 
               </NextLink>
-            </MotionBox>
+            </IconButton>
             <HStack as={'nav'} spacing={3} display={{ base: 'none', md: 'flex' }}>
               {webLinks.map((link, index) => (
                 <NavLink

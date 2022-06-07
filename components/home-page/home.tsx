@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import {
   Flex,
   Avatar,
+  Image,
   Box,
   Text,
   Badge,
@@ -56,14 +57,14 @@ const Home: React.FC<BlogPostProps> = (props) => {
           m="auto"
           mb={[16, 16, 'auto']}
         >
-          <MotionBox whileHover={{ scale: 1.5 }} rounded="full" shadow="lg">
-            <Avatar
-              size={'2xl'}
-              showBorder={true}
-              borderColor={linkColor}
-              src={'https://avatars.githubusercontent.com/u/31941232?s=400&u=2c8f7e9f2df927fe698271da078c68de7c6856f1&v=4'}
+          <Stack position="relative">
+            <Image
+              align="left"
+              borderRadius='8'
+              boxSize='135px'
+              src='/assets/images/main.jpeg'
             />
-          </MotionBox>
+          </Stack>
         </MotionBox>
         <MotionFlex
           position="relative"
@@ -128,11 +129,11 @@ const Home: React.FC<BlogPostProps> = (props) => {
                   setShowEmoji(true)
                 }}
               >
-                Hi I'm Mwangi!
+                Hey, I'm Mwangilwa!
               </Header>
             </MotionBox>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
+          <Box as="h2" fontSize="18" fontWeight="500" textAlign="left">
             I'm a {' '}
             <Box as="strong" fontWeight="600">
               Software Engineer
@@ -146,12 +147,10 @@ const Home: React.FC<BlogPostProps> = (props) => {
             </Box>
             and Tech Enthusiast {' '}
             <Box as="span" whiteSpace="nowrap">
-            from Lusaka. 
+            from Lusaka. Welcome to my digital nest.
             </Box>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            Welcome to my digital nest.
-          </Box>
+          
         </MotionFlex>
       </Flex>
 
