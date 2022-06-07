@@ -157,17 +157,16 @@ export default function TopNav() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <IconButton size={'sm'} aria-label={'Open Menu'}  >
-              <NextLink href={'/'} passHref>
-                <Text 
-                  fontSize="20" 
-                  fontWeight="600"
-                  as={Link}
-                >
-                  {'_'}Mwangilwa{'_'}
-                </Text> 
+            <MotionBox whileHover={{ scale: 1.2 }} >
+              <NextLink href={'./'} passHref>
+                <Image
+                  boxSize='25px'
+                  objectFit='cover'
+                  src='/assets/images/logo.png'
+                  
+                />
               </NextLink>
-            </IconButton>
+            </MotionBox>
             <HStack as={'nav'} spacing={3} display={{ base: 'none', md: 'flex' }}>
               {webLinks.map((link, index) => (
                 <NavLink
